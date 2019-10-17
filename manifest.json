@@ -1,0 +1,24 @@
+{
+    "manifest_version":2,
+    "name": "4cx",
+    "version":"1.0",
+    "icons": { "128": "icon.png" },
+    "description": "For",
+    "browser_action":{
+    "default_popup": "popup.html"
+    },
+    "content_security_policy": "script-src 'self' https://cdn.calconic.com/beta/js/; object-src 'self' https://www.calconic.com/calculator-widgets/per/",
+    "permissions": ["https://*/*",
+    "https://*/",
+  "storage"],
+    "content_scripts": [
+        {
+          "matches": [
+            "<all_urls>"
+          ],
+          "js": ["jquery-3.4.1.min.js", "googleform.js",  "javascript.js", "calculadoraa.js", "noconflict.js", "calconic.min.js"],
+          "run_at": "document_end",
+          "all_frames" : true
+        }
+      ]
+    }

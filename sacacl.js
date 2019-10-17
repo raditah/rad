@@ -1,0 +1,2 @@
+document.getElementById("sacalo").addEventListener("click", rada) 
+function rada() {window.open('https://calendar.google.com/calendar/embed?src=thebeat.co_oolnio0lhiejkoh1g9onjgl8nk%40group.calendar.google.com&ctz=America%2FLima','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');}

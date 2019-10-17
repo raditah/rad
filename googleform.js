@@ -1,0 +1,2 @@
+document.getElementById("feedbackss").addEventListener("click", rada) 
+function rada() {window.open('https://docs.google.com/forms/d/e/1FAIpQLSe4YUQRfS35pXdEDR-mydOhmcwe2QzBtHxg5ruPDRqNOQ86og/viewform','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');}
